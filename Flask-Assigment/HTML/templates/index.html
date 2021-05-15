@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Page Title</title>
+
+
+    <style>
+        table, th, td {
+            border: 2px solid black;
+            padding: 5px;
+            border-spacing: 15px;
+        }
+        
+        table {
+            border-spacing: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>User</th>
+            <th>LastName</th>
+            <th>Firstname</th>
+
+        </tr>
+
+
+        <body>
+            {% for i in range(z|length) %}
+
+            <tr>
+                <td>{{i+1}}</td>
+                <td>{{z[i]['first_name']}}</td>
+                <td>{{z[i]['last_name']}}</td>
+            </tr>
+            {% endfor %}
+        </body>
+
+
+    </table>
+</body>
+
+</html>
