@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}"> </head>
+
+    <body>
+        <form action="/result" method="post">
+            <span>Your Name:</span><input type="text" name="name" id="nameinput"><br>
+            <span>Dojo Location:</span>
+            <select name="location" id="location">
+            <option>San Jose</option>
+            <option>Ramallah</option>
+            <option>Online</option>
+        </select><br> <span>Favourite Language:</span><select name="language" id="language">
+            <option>Python</option>
+            <option>Java</option>
+            <option>Javascript</option>
+        </select><br> <span>Comment (Optional):</span><br><textarea name="textarea"></textarea><br>
+            <input type="submit" value="Button">
+        </form>
+    </body>
+
+</html>

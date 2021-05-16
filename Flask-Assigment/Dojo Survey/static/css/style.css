@@ -1,0 +1,42 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+}
+
+form {
+    border: 2px solid black;
+    padding: 10px;
+    width: 500px;
+    margin-left: 450px;
+}
+
+#nameinput,
+span,
+textarea {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+textarea {
+    width: 350px;
+}
+
+#language {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-left: 46px;
+}
+
+#location {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-left: 77px;
+}
+
+input[type="submit"] {
+    margin-left: 350px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
